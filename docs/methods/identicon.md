@@ -4,7 +4,7 @@
 
 Prop       | Type            | Default                            | Params       | Describe
 ---------- | --------------- | ---------------------------------- | ------------ | ----------------------------------------------------
-text       | String          | -                                  | -            | used to generate the image
+text       | String          | null                               | -            | used to generate the image
 size       | Number          | 200                                | -            | -
 type       | String          | 'png'                              | 'png','jpeg' | -
 padding    | Number / String | 0.1                                | -            | decimal number for percentage,string for fixed value
