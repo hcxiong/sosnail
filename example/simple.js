@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-19 11:07:37
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-10-10 11:05:11
+ * @Last modified time: 2017-10-12 14:25:49
  */
 
 
@@ -120,7 +120,12 @@ const sosnail = require('sosnail.js');
 // const hex2hsb = colorPicker.hex2hsb('#f200ff');
 
 //color
-//const color = sosnail.color();
+
+// for (var i = 0; i < 20; i++) {
+//   const color = sosnail.color();
+//   console.log(color);
+// }
+
 //test
 // const div = document.createElement('div');
 // div.style.width = '200px';

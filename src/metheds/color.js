@@ -2,7 +2,7 @@
  * @Author: gaomingjun
  * @Date:   2017-09-20 09:56:32
  * @Last modified by:   gaomingjun
- * @Last modified time: 2017-10-09 10:53:05
+ * @Last modified time: 2017-10-12 14:23:38
  */
 
 
@@ -110,7 +110,7 @@ const color = (opts) => {
       color = colorPicker.hsb2hex(341, delta(minL, maxL), delta(minL, maxL));
       break;
     default:
-      color = `#${Math.floor(seed * 0xffffff).toString(16)}`;
+      color = `#${('000000'+(Math.random()*0x1000000<<0).toString(16)).substr(-6)}`;
   }
   let format = opts.format;
   const hasWeb = opts.format.indexOf('-web') !== -1;
