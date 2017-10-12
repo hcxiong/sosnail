@@ -41,6 +41,8 @@ const sosnail = require('sosnail');
 ```
 
 ```javascript
+import * as sosnail from 'sosnail';
+//or
 import sosnail from 'sosnail';
 
 const number = sosnail.number();
