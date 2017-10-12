@@ -1,6 +1,6 @@
 {
   "name": "sosnail",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "keywords": [
     "sosnail",
     "random",
@@ -9,6 +9,7 @@
     "identicon",
     "color"
   ],
+  "main": "dist/sosnail.min.js",
   "author": "sosnail",
   "license": "MIT",
   "repository": {
@@ -19,23 +20,6 @@
     "start": "cross-env NODE_ENV=development nodemon --watch webpack.config.js --exec webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "karma start test/karma.conf.js --single-run"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "commonjs": true,
-      "es6": true,
-      "node": true
-    },
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
-    },
-    "rules": {
-      "semi": 1,
-      "eqeqeq": 1
-    }
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
