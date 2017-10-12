@@ -22,3 +22,9 @@
 ## 2017-10-10
 - v0.0.5
 - add random methed and test module
+
+## 2017-10-12
+- v0.0.8
+- fixed hex color bug
+- modified packaging
+- update packages
